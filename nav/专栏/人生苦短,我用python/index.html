@@ -1,0 +1,659 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="A Material Design theme for MkDocs">
+      
+      
+        <link rel="canonical" href="https://squidfunk.github.io/mkdocs-material/nav/专栏/人生苦短,我用python/">
+      
+      
+        <meta name="author" content="Martin Donath">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>人生苦短,我用python - Material for MkDocs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.1b62728e.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-XXXXXXXX-X", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Material for MkDocs
+            </span>
+            <span class="md-header-nav__topic">
+              
+                人生苦短,我用python
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://zhikecore.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zhikecore
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Material for MkDocs
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://zhikecore.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    zhikecore
+  </div>
+</a>
+    </div>
+  
+    <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+      <li class="md-nav__item md-nav__item--nested">
+        
+          <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+        
+        <label class="md-nav__link" for="nav-1">
+          专栏
+        </label>
+        <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+          <label class="md-nav__title" for="nav-1">
+            专栏
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+            
+              
+              
+              
+    
+    
+      <li class="md-nav__item">
+        <a href="../人生苦短,我用python/index.html" title="生苦短,我用python" class="md-nav__link">
+          生苦短,我用python
+        </a>
+      </li>
+    
+            
+              
+              
+              
+    
+    
+      <li class="md-nav__item">
+        <a href="../对几次通宵加班发版的复盘和思考/index.html" title="对几次通宵加班发版的复盘和思考" class="md-nav__link">
+          对几次通宵加班发版的复盘和思考
+        </a>
+      </li>
+    
+            
+              
+              
+              
+    
+    
+      <li class="md-nav__item">
+        <a href="../汉字拼音首字母通讯录的实现/index.html" title="汉字拼音首字母通讯录的实现" class="md-nav__link">
+          汉字拼音首字母通讯录的实现
+        </a>
+      </li>
+    
+            
+              
+              
+              
+    
+    
+      <li class="md-nav__item">
+        <a href="../idea 中查看文件变更/index.html" title="idea 中查看文件变更" class="md-nav__link">
+          idea 中查看文件变更
+        </a>
+      </li>
+    
+            
+              
+              
+              
+    
+    
+      <li class="md-nav__item">
+        <a href="../Flink1.14新特性抢鲜看/index.html" title="Flink1.14新特性抢鲜看" class="md-nav__link">
+          Flink1.14新特性抢鲜看
+        </a>
+      </li>
+    
+            
+              
+              
+              
+    
+    
+      <li class="md-nav__item">
+        <a href="../一文读懂Java面向对象/index.html" title="一文读懂Java面向对象" class="md-nav__link">
+          一文读懂Java面向对象
+        </a>
+      </li>
+    
+            
+          </ul>
+        </nav>
+      </li>
+    
+        
+      </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    导航
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    报表!报表!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    代码去哪儿了
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    乱码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    复杂查询
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    人生苦短,我用python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    实战案例
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    结语
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    参考
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>人生苦短,我用python</h1>
+                
+                <h3 id="_1">导航<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>报表!报表!</li>
+<li>代码去哪儿了</li>
+<li>乱码</li>
+<li>复杂查询</li>
+<li>人生苦短,我用python</li>
+<li>实战案例</li>
+<li>结语</li>
+<li>参考</li>
+</ul>
+<p>本文首发于智客工坊-<a href="https://www.52interview.com/solution/index">《数据处理,我用python》</a>,感谢您的阅读,预计阅读时长3min。</p>
+<blockquote>
+<p>人生苦短,我用python。</p>
+</blockquote>
+<p>第一次接触pyton是在2018年底。那一年,去了一家做AI教育的公司。</p>
+<p>那一年,也是人工智能风靡的一年。因为大部分的AI库都是基于Python的,所以python也被炒得热乎朝天。</p>
+<p>真正下定决心开启python之旅,其实是两年之后。一部分原因是在学习推荐算法,而更重要的原因是为了应对各种繁杂的数据报表。</p>
+<h3 id="_2">报表!报表!<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>离开上家公司之后,去了另外一家新兴行业的创业公司。</p>
+<p>因为所在项目组是新成立的,所以前期老板会要求导出数据报表。当然,随着业务的不断发展,这种需求几乎一直都有。</p>
+<p>人工导出报表,总是让人不堪其扰。</p>
+<p>而这种需求总是不固定的。有些报表是临时的,有些报表可能会使用几个月。</p>
+<p>好不夸张地说,这年写的报表超过了过去职业生涯的总和。</p>
+<p>最可气的是,这种导出报表,在领导们看来了就是写几句<code>sql</code>的事情,没有必要体现在工作任务中。</p>
+<h3 id="_3">代码去哪儿了<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>我们平时其实都会忙于正式的工作——项目的编码。</p>
+<p>所以,这些项目都是会提交到<code>git</code>仓库。</p>
+<p>而那些临时性的报表需求,简单一点的我就写个<code>sql</code>处理了,复杂一点的会用<code>C#</code>或者<code>Java</code>写个导出功能代码。</p>
+<p>但是,需求繁杂,管理也不够正式。当下次同样的需求来的时候,又会满世界去找代码...</p>
+<h3 id="_4">乱码<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>有人说,很多数据库客户端工具也能导出数据到excel? 没有必要写程序导出。</p>
+<p>但是,有的导出之后,在本机打开是正常的,发送给别人就成了乱码。</p>
+<p>这里还是建议是用程序导出,可以设置合适的格式。</p>
+<h3 id="_5">复杂查询<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>报表本身用于数据分析。数据库的设计总是很难满足不同维度的数据导出,又说一些复杂的报表,往往需要超过3张以上数据库表才能完成。</p>
+<p>联表的复杂度就不用多说,如果有些表数据太大,sql执行超时也是很普遍的。</p>
+<p>而程序处理,显得更加灵活。</p>
+<h3 id="python">人生苦短,我用python<a class="headerlink" href="#python" title="Permanent link">&para;</a></h3>
+<p>对比了多种语言,踩过了无数的坑,最终发现python这一利器。</p>
+<p>python具备很多优点：</p>
+<ul>
+<li>简单易学：相对于java等，语法更简单，更易上手，适用于编程初学者。</li>
+<li>数据分析数据挖掘：海量数据的处理是 Python 的强项。</li>
+<li>轻量：随手写一个python文件即可执行。如果使用<code>C#</code>或者<code>Java</code>,需要构建一个项目。</li>
+</ul>
+<p>特别适合做数据统计和分析。</p>
+<h3 id="_6">实战案例<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>需求:</p>
+<p>导出2018-11-12~2019-01-01时间段内的文章到excel表格,字段如下:
+| 文章ID | 文章类型 | 标签 | 标题 |创建时间 |
+| :-----| ----: | :----: | :----: |:----: |</p>
+<p>使用Python来实现,比较简单,这里给出一个万能模板,您只需要更改数据库连接,sql即可。</p>
+<div class="codehilite"><pre><span></span><span class="c1">#_*_coding:utf-8_*_</span>
+<span class="c1">#导入pymysql的包</span>
+<span class="kn">import</span> <span class="nn">pymysql</span>
+<span class="kn">import</span> <span class="nn">pymysql.cursors</span>
+
+<span class="c1"># 导入excel操作包</span>
+<span class="kn">import</span> <span class="nn">xlwt</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+
+
+<span class="k">def</span> <span class="nf">get_data</span><span class="p">(</span><span class="n">sql</span><span class="p">):</span>
+    <span class="c1"># 创建数据库连接</span>
+    <span class="c1">#获取一个数据库连接，注意如果是UTF-8类型的，需要制定数据库</span>
+    <span class="c1">#port 必须是数字不能为字符串</span>
+    <span class="c1">#conn=pymysql.connect(host=&#39;localhost&#39;,user=&#39;root&#39;,password=&#39;bhwcu2a9&#39;,db=&#39;passbook&#39;,port=3306,charset=&#39;utf8&#39;)</span>
+    <span class="n">conn</span> <span class="o">=</span> <span class="n">pymysql</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span>
+        <span class="n">host</span><span class="o">=</span><span class="s1">&#39;localhost&#39;</span><span class="p">,</span>
+        <span class="n">user</span><span class="o">=</span><span class="s1">&#39;root&#39;</span><span class="p">,</span>
+        <span class="n">password</span><span class="o">=</span><span class="s1">&#39;zhikecore123&#39;</span><span class="p">,</span>
+        <span class="n">db</span><span class="o">=</span><span class="s1">&#39;zhike_street&#39;</span><span class="p">,</span>
+        <span class="n">port</span><span class="o">=</span><span class="mi">3306</span><span class="p">,</span>
+        <span class="n">charset</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span>
+    <span class="c1">#conn=pymysql.connect(host=&#39;ec2-161-189-70-43.cn-northwest-1.compute.amazonaws.com.cn&#39;,user=&#39;meb_im&#39;,password=&#39;nvfoFPR4hnQZfeGkCwBN&#39;,db=&#39;meb_im&#39;,port=3306,charset=&#39;utf8&#39;)</span>
+    <span class="c1"># 创建游标</span>
+    <span class="n">cur</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+    <span class="c1"># 执行查询，</span>
+    <span class="n">cur</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+    <span class="c1"># 由于查询语句仅会返回受影响的记录条数并不会返回数据库中实际的值，所以此处需要fetchall()来获取所有内容。</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">cur</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+    <span class="c1">#关闭游标</span>
+    <span class="n">cur</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="c1">#关闭数据库连接</span>
+    <span class="n">conn</span><span class="o">.</span><span class="n">close</span>
+    <span class="c1"># 返给结果给函数调用者。</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+
+<span class="k">def</span> <span class="nf">getResult</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="c1"># 将sql作为参数传递调用get_data并将结果赋值给result,(result为一个嵌套元组)</span>
+    <span class="n">sql</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+
+
+<span class="s2">SELECT </span>
+<span class="s2">  `Id`,</span>
+<span class="s2">  `ArticleTypeName`,</span>
+<span class="s2">  `Tags`,</span>
+<span class="s2">  `Title`,</span>
+<span class="s2">  `CreateTime` </span>
+<span class="s2">FROM</span>
+<span class="s2">  `article` </span>
+<span class="s2">WHERE createtime &gt; &#39;</span><span class="si">{dtBegin}</span><span class="s2">&#39; </span>
+<span class="s2">  AND createtime &lt; &#39;</span><span class="si">{dtEnd}</span><span class="s2">&#39; </span>
+
+
+<span class="s2">&quot;&quot;&quot;</span>
+    <span class="n">info</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;dtBegin&#39;</span><span class="p">:</span> <span class="s1">&#39;2018-11-12&#39;</span><span class="p">,</span><span class="s1">&#39;dtEnd&#39;</span><span class="p">:</span><span class="s1">&#39;2019-01-01&#39;</span><span class="p">}</span>  <span class="c1"># 参数是字典类型</span>
+    <span class="n">sql</span> <span class="o">=</span> <span class="n">sql</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">info</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">get_data</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+    <span class="c1"># 实例化一个Workbook()对象(即excel文件)</span>
+    <span class="n">wbk</span> <span class="o">=</span> <span class="n">xlwt</span><span class="o">.</span><span class="n">Workbook</span><span class="p">()</span>
+    <span class="c1"># 新建一个名为Sheet1的excel sheet。此处的cell_overwrite_ok =True是为了能对同一个单元格重复操作。</span>
+    <span class="n">sheet</span> <span class="o">=</span> <span class="n">wbk</span><span class="o">.</span><span class="n">add_sheet</span><span class="p">(</span><span class="s1">&#39;Sheet1&#39;</span><span class="p">,</span> <span class="n">cell_overwrite_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="c1"># 表头</span>
+    <span class="n">header_row</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;文章ID&quot;</span><span class="p">,</span> <span class="s2">&quot;文章类型&quot;</span><span class="p">,</span> <span class="s2">&quot;标签&quot;</span><span class="p">,</span> <span class="s2">&quot;标题&quot;</span><span class="p">,</span> <span class="s2">&quot;创建时间&quot;</span><span class="p">]</span>
+
+    <span class="c1"># 获取当前日期，得到一个datetime对象如：(2016, 8, 9, 23, 12, 23, 424000)</span>
+    <span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+    <span class="c1"># 将获取到的datetime对象仅取日期如：2016-8-9</span>
+    <span class="n">today_date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="n">today</span><span class="p">)</span>
+    <span class="c1"># 遍历result中的没个元素。</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">result</span><span class="p">)):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span><span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span><span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">],</span><span class="n">result</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">4</span><span class="p">]]</span>
+        <span class="k">if</span> <span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">header_row</span><span class="p">)):</span>
+                <span class="c1"># 第一个参数代表行，第二个参数是列，第三个参数是内容，第四个参数是格式</span>
+                <span class="n">sheet</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">header_row</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+        <span class="c1">#对result的每个子元素作遍历，</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
+            <span class="n">sheet</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="n">k</span><span class="p">])</span>
+    <span class="c1"># 以传递的name+当前日期作为excel名称保存。</span>
+    <span class="n">wbk</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">today_date</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;.xls&#39;</span><span class="p">)</span>
+
+
+<span class="c1"># 如果该文件不是被import,则执行下面代码。</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">getResult</span><span class="p">(</span><span class="s1">&#39;_article_static&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>代码中几乎每行都有注释,这里不再赘述。</p>
+<p>至此,代码已经编写完成,我们保存为<code>_article_static_with_header.py</code>文件。</p>
+<p>接下来,就是让代码run起来,导出到excel。</p>
+<p>这里需要注意的是,我们需要提前搭建好python的运行环境。新手同学可以参考<a href="https://www.cnblogs.com/Fengqiao/p/python_install.html">《Python安装和使用教程（windows）》</a>。</p>
+<p>我这里使用的编辑器是VS Code,推荐您也使用。</p>
+<p>上面的代码用VS Code 编辑器打开之后,执行</p>
+<p><br>
+<section>
+ <a href="https://img.zhikestreet.com/20220614072204.png?imageView2/0/q/75|watermark/2/text/NTJJbnRlcnZpZXc=/font/5a6L5L2T/fontsize/240/fill/IzBFMDkwNQ==/dissolve/100/gravity/SouthEast/dx/10/dy/10" data-lightbox="example-set"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://img.zhikestreet.com/20220614072204.png?imageView2/0/q/75|watermark/2/text/NTJJbnRlcnZpZXc=/font/5a6L5L2T/fontsize/240/fill/IzBFMDkwNQ==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></a>
+</section> 
+<br></p>
+<p>执行之后,生成了一个excel文件。</p>
+<p><br>
+<section>
+ <a href="https://img.zhikestreet.com/20220614072218.png?imageView2/0/q/75|watermark/2/text/NTJJbnRlcnZpZXc=/font/5a6L5L2T/fontsize/240/fill/IzBFMDkwNQ==/dissolve/100/gravity/SouthEast/dx/10/dy/10" data-lightbox="example-set"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://img.zhikestreet.com/20220614072218.png?imageView2/0/q/75|watermark/2/text/NTJJbnRlcnZpZXc=/font/5a6L5L2T/fontsize/240/fill/IzBFMDkwNQ==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></a>
+</section> 
+<br></p>
+<p>数据就已经导出成功了。</p>
+<h3 id="_7">结语<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>python对于数据处理具有天然优势,比如它的<a href="https://pandas.pydata.org/">pandas</a>,非常强大。有兴趣的同学可以进一步研究。</p>
+<p>在实际使用过程中,一个文件就可以处理一个报表需求,管理也很方便。</p>
+<p>在大数据时代,数据分析已经变得越来越受重视,如果您需要经常需要导出报表或者想成为一名数据分析工程师,那就赶快入手<code>python</code>吧!</p>
+<h3 id="_8">参考<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.cnblogs.com/Fengqiao/p/python_install.html">《Python安装和使用教程（windows）》</a></li>
+<li><a href="https://www.52interview.com/solutions/58">《人生苦短,我用python》</a></li>
+</ul>
+<p><br>
+<section>
+ <a href="https://www.52interview.com/" data-lightbox="example-set" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://img.zhikestreet.com/20210522-22216942.jpg" alt=""></a>
+</section> 
+<br></p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 - 2022 zhikecore
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
