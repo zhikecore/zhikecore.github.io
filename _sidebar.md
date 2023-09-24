@@ -5,7 +5,7 @@
     - [1.2 如何撰写需求文档](/ProjectDocs/如何撰写需求文档.md)
     - [1.3 需求关键点文档](/ProjectDocs/需求关键点文档.md)
   - 2 原型设计
-    - [2.1 让想法跃然纸上](/ProjectDocs/让想法跃然纸上.md)
+    - [2.1 让想法跃然纸上](https://www.52interview.com/book/36/346)
     - [2.2 缺失的逻辑](/ProjectDocs/缺失的逻辑.md)
   - 3 开发设计文档
     - [3.1 项目架构设计](/ProjectDocs/Springboot项目架构设计.md)

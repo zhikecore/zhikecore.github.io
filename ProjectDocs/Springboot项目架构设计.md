@@ -179,17 +179,3 @@
 
 ---
 
-
-### 该系列往期文章
-
-- [前言](https://www.52interview.com/book/36/0)
-- (思维篇)人人都是产品经理
-  - 1.需求文档
-    - 1.1 [需求管理](https://www.52interview.com/book/36/342)
-    - 1.2 [如何攥写需求文档](https://www.52interview.com/book/36/343)
-    - 1.3 [需求关键点文档](https://www.52interview.com/book/36/344)
-  - 2 原型设计
-    - 2.1 [缺失的逻辑](https://www.52interview.com/book/36/345)
-    - 2.2 [让想法跃然纸上](https://www.52interview.com/book/36/346)
-
-
